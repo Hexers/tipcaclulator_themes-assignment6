@@ -1,0 +1,27 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+    <style name="TextView">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+    <style name="EditText" parent="@style/TextView"/>
+    <style name="Label" parent="@style/TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="TextView.Label">
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="TextView.Label.Indent">
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+</resources>
+
